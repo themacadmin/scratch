@@ -1,0 +1,4 @@
+plistModDate=$(date -r "$localDataPlist" +%s)
+todaysSincePlistModDate=$(date +%s)          
+daysSincePlistMod=$(expr \( $todaysSincePlistModDate - $plistModDate \) / 86400)
+echo $daysSincePlistMod
