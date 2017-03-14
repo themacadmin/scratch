@@ -1,0 +1,57 @@
+installer -showChoiceChangesXML -pkg  | grep -A1 choiceIdentifier | grep -v choiceIdentifier | sort | uniq
+
+#####
+
+<array>
+	<string>word</string>
+	<string>excel</string>
+	<string>powerpoint</string>
+	<string>dcc</string>
+	<string>lync</string>
+	<string>vb</string>
+	<string>automator</string>
+	<string>dock</string>
+</array>
+
+word excel powerpoint outlook dcc vb automator dock
+
+#####
+
+		<string>appsupport</string>
+		<string>automator</string>
+		<string>brazilian</string>
+		<string>catalan</string>
+		<string>czech</string>
+		<string>danish</string>
+		<string>dcc</string>
+		<string>dock</string>
+		<string>dutch</string>
+		<string>english</string>
+		<string>excel</string>
+		<string>finnish</string>
+		<string>fonts</string>
+		<string>french</string>
+		<string>german</string>
+		<string>italian</string>
+		<string>italian_grammar</string>
+		<string>italian_no_grammar</string>
+		<string>japanese</string>
+		<string>norwegian</string>
+		<string>office</string>
+		<string>officecomponents</string>
+		<string>outlook</string>
+		<string>polish</string>
+		<string>portuguese</string>
+		<string>powerpoint</string>
+		<string>proofingtools</string>
+		<string>required</string>
+		<string>russian</string>
+		<string>spanish</string>
+		<string>swedish</string>
+		<string>turkish</string>
+		<string>vb</string>
+		<string>word</string>
+    
+    #####
+    
+    
